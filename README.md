@@ -57,3 +57,27 @@ MIT LICENSE
 ## Reference
 
 K. Zhang and Z. Zhang and Z. Li and Y. Qiao Joint,  Face Detection and Alignment Using Multitask Cascaded Convolutional Networks, IEEE Signal Processing Letters
+
+
+
+### メモ
+
+det1-0001.params
+det1-symbol.json
+
+みたいに
+```
+hoge.params
+hoge.json
+```
+
+のファイルは必要
+
+一方で、
+
+```
+hoge.caffemodel
+hoge.prototxt
+```
+
+はなくても動く。
